@@ -1,0 +1,98 @@
+
+/* 
+Created on: 17 Sep, 2014, 4:29:37 PM
+Author: senthil
+*/
+
+.ti_tx,
+.mi_tx,
+.mer_tx {
+	width: 100%;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.time,
+.mins,
+.meridian {
+	width: 25px;
+	float: left;
+	margin: 0 5px;
+	font-size: 18px;
+	color: #2d2e2e;
+	font-family: arial;
+	font-weight: 700;
+}
+
+.prevs,
+.nexts {
+	cursor: pointer;
+	/* padding: 18px; */
+	padding: 10px 15px;
+	width: 28%;
+	border: 1px solid #ccc;
+	margin: auto;
+	background: url(../timepicki/arrow.png) no-repeat;
+	border-radius: 3px;
+	background-color: #fff;
+}
+
+.prevs:hover,
+.nexts:hover {
+	background-color: #ccc;
+}
+
+.nexts {
+	/* background-position: 50% 150%; */
+	background-position: 50% 105%;
+}
+
+.prevs {
+	/* background-position: 50% -50%; */
+	background-position: 50% -10%;
+}
+
+.time_pick {
+	position: relative;
+}
+
+.timepicker_wrap {
+	/* padding: 10px; */
+	padding: 5px 9px;
+	border-radius: 3px;
+	z-index: 5000;
+	display: none;
+	/* box-shadow: 2px 2px 5px 0 rgba(50,50,50,0.35); */
+	box-shadow: 0px 0px 17px #333;
+	background: #ffffff;
+    border: 1px solid #ffffff;
+	float: left;
+	position: absolute;
+	top: 35px;
+	left: 0;
+}
+
+.arrow_top {
+	position: absolute;
+	top: -11px;
+	left: 20px;
+	background: url(../timepicki/top_arr.png) no-repeat;
+	width: 18px;
+	height: 10px;
+	z-index: 999;
+}
+input.timepicki-input {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	/* border-radius: 5px 5px 5px 5px; */
+	float: none;
+	margin: 0;
+	text-align: center;
+	width: 130%;
+	font-size: 20px;
+}
+a.reset_time {
+	float: left;
+	margin-top: 5px;
+	color: #000;
+}

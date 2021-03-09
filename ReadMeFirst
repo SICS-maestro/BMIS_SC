@@ -1,0 +1,50 @@
+copy the file in to 
+local Disk(C)>xammp>htdocs
+then paste the file 
+
+
+IMPORT DATABASE
+create a database name 
+
+bmis
+
+after you already created the database click import
+then import the database file name 
+under the db folder in BMISS
+the SQL name is
+
+bmis(withData).sql
+
+
+to access the file go to browser and Paste this URL
+http://localhost/BMISS
+
+
+the username and password is 
+
+System Admin
+
+username:admin
+password:admin
+
+DILG Administrator
+
+username:DILG
+password:DILG
+
+Barangay Captain 
+
+username:jeremie
+password:jeremie
+
+Kagawad
+
+username:kagawad
+password:kagawad
+
+Secretary
+
+username:secretary
+password:secretary
+
+
